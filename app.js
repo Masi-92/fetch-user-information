@@ -50,6 +50,8 @@ function displayUserInfo(user) {
   followersSpan.classList.add("text");
   const reposSpan = document.createElement("span");
   reposSpan.textContent = "Public Repositories: " + repos;
+  reposSpan.classList.add("text");
+
 
   userInfoDiv.appendChild(avatarImg);
   userInfoDiv.appendChild(nameHeader);
