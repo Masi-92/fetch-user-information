@@ -54,10 +54,10 @@ function displayUserInfo(user) {
 
 
   userInfoDiv.appendChild(avatarImg);
-  userInfoDiv.appendChild(nameHeader);
+   userInfoDiv.appendChild(nameHeader);
   userInfoDiv.appendChild(bioParagraph);
   userInfoDiv.appendChild(followersSpan);
-  userInfoDiv.appendChild(reposSpan);
+  userInfoDiv.appendChild(reposSpan); 
 }
 
 function displayError(message) {
@@ -75,3 +75,4 @@ function displayError(message) {
 function clearPlaceholder() {
   document.getElementById("usernameInput").placeholder = "";
 }
+

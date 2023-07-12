@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
   .container {
 position:fixed;
@@ -61,7 +62,8 @@ input placeholder:focus{
     font-size: 1.5rem;
     background-color: rgb(235, 153, 40);
     border-radius: 10rem;
-    padding:4px ;
+    padding:10px ;
+    margin: 5px;
   }
 
   input:focus {
