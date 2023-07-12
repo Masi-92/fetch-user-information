@@ -70,3 +70,8 @@ function displayError(message) {
 
   userInfoDiv.appendChild(errorParagraph);
 }
+
+//  placeholder function 
+function clearPlaceholder() {
+  document.getElementById("usernameInput").placeholder = "";
+}

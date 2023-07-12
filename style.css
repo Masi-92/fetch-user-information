@@ -33,7 +33,9 @@ position:fixed;
     transform: translateX(3px);
  
   } 
-
+input placeholder:focus{
+  display: none;
+}
   .image{
 
     width: 150px;
